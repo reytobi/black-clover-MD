@@ -31,14 +31,14 @@ console.log(`Error : ${e}`)
 global.creador = 'Wa.me/525544876071'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/525544876071'
-global.namechannel = '⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
-global.namegrupo = ' 𝕭𝖑𝖆𝖈𝖐 𝕮𝖑𝖔𝖛𝖊𝖗 ☘︎'
+global.namechannel = '⏤͟͞㋡ 𝐓𝐇𝐄 SOMBRA'
+global.namegrupo = '☘︎'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 ⏤͟͞ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 '
 global.listo = '⚔️ *Aquí tienes perra*'
 
 //Ids channel
-global.idchannel = '120363307694217288@newsletter'
-global.canalIdM = ["120363307694217288@newsletter", "120363307694217288@newsletter"]
+global.idchannel = ''
+global.canalIdM = ["", ""]
 global.canalNombreM = ["⏤͟͞㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 ", "㋡ 𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃𝐒 "]
 global.channelRD = await getRandomChannel()
 
@@ -64,12 +64,12 @@ global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w'  
-let canal2 = 'https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w'
-var git = 'https://github.com/thecarlos19' 
+var canal = ''  
+let canal2 = ''
+var git = '' 
 var youtube = '' 
-var github = 'https://github.com/thecarlos19/black-clover-MD' 
-let correo = 'carloscristobal30@gmail.com'
+var github = '' 
+let correo = ''
 global.redes = [canal, git, github, correo].getRandom()
 
 let category = "imagen"
@@ -90,14 +90,14 @@ var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
 
   
-global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `6285600793871-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${nombre}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${nombre},;;;\nFN:${nombre},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': null, thumbnail: null,sendEphemeral: true}}}
+global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `` } : {}) }, message: { 'contactMessage': { 'displayName': `${nombre}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${nombre},;;;\nFN:${nombre},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': null, thumbnail: null,sendEphemeral: true}}}
 
 global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1 }
 }}, { quoted: m }
 
 global.icono = [
-'https://files.catbox.moe/w7lqei.jpg',
-'https://files.catbox.moe/viji8b.jpg'
+'https://files.catbox.moe/j4fd3b.jpeg',
+'https://files.catbox.moe/j4fd3b.jpeg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
